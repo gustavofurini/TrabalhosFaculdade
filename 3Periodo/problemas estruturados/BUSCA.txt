@@ -1,0 +1,44 @@
+Responda os itens a seguir a respeito das diferentes formas de busca disponíveis.
+
+1) Busca em Tabelas Ordenadas
+
+a) Escreva um parágrafo com as suas palavras explicando o funcionamento de uma busca sequencial indexada
+
+R: Ao invés de percorrer a liste de elemento a elemento ela vai direto para a posição que indica o indice
+
+b) Escreva um parágrafo com as suas palavras explicando o funcionamento de uma busca binária
+
+R: Divide a lista a pela metade até reduzir o tamanho das partições em um, e assim começa o processo de busca.
+
+2) Busca em Árvores
+
+a) Quais as principais vantagens e desvantagens entre Árvores Binárias de Busca simples e Árvores Binárias balanceadas (AVL) ?
+
+R: A busca binária é mais rápida pois é realizada em tempo logarítimico e a a nas avl a cada remoção é necessário avaliar o balanceamento e se precisar aplicar as rotações.
+
+b) Quais as principais vantagens e desvantagens entre Árvores Multiway simples e Árvores Multiway balanceadas (B) ?
+
+R: A arvore b permite um número menor de nós e por conseguinte um acaba havendo uma número menor de acessos, diferentemente do da AVL.
+
+3) Tabelas Hash
+
+a) Quais os principais componentes de uma Tabela Hash?
+
+R: Chaves de pesquisa e valores
+
+b) Como funciona uma Tabela Hash com armazenamento externo de colisões?
+
+R: Cada elemento da lista é uma estrtura que possui pelo menos dois campos: chave e proximo. O nó possui a estrutura de uma lista encadeada
+
+c) Como funciona uma Tabela Hash com armazenamento interno de colisões (rehash)?
+
+R: Utiliza uma função que procura uma posição vazia, caso essa função. Se a posição estiver ocupada a função é repetida até achar uma posição vazia.
+
+d) Por que há necessidade de tratar colisões em uma Tabela Hash?
+
+R: Por que mais de uma chave pode ser transformada no mesmo endereço na tabela hash.
+
+e) Como caracterizar uma boa função hash?
+
+R: Saída de tamanho fixo e entrada de tamanho variado.
+

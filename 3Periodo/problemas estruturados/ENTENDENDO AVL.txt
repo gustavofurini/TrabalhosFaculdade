@@ -1,0 +1,24 @@
+1) Uma árvore AVL é uma árvore binária de busca? Explique.
+
+R: Não. A árvore AVL, está sempre balanceada, caso ela nao esteja balanceada ela apenas é uma árvore binaria de busca.
+
+2) Qual critério utilizado por uma AVL para garantir que a árvore está balanceada?
+
+R: O critério é se o fator balanceamento da árvore for 0, assim mostrando que tal árvore esta balanceada.
+
+3) Como o balanceamento é mantido em uma árvore AVL?
+
+R: Através das rotações. Rotação simples à esquerda, rotação simples à direita, rotação dupla à direita e rotação dupla à esquerda.
+
+4) Em que situações são realizados rotacionamentos simples e duplos em uma árvore AVL?
+
+R: Se o fator balanceamento for maior que zero e balanceamento da sub-árvore for menor que 0 usará a rotação dupla aa esquerda, caso não possuir sub-árvore usa-se a rotação simples a esquerda. Agora se a sub-árvore tiver o balanceamento maior que zero usa a rotação dupla a direita senão usa a rotação simples a esquerda.
+
+
+=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+a) NÓS FOLHA: 3
+ALTURA: 3
+
+B) NÓS FOLHA: 1
+ALTURA: 7

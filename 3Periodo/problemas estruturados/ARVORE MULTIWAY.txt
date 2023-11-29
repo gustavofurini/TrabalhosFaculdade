@@ -1,0 +1,25 @@
+Árvores Multiway, também conhecidas como árvores m-árias, são estruturas eficientes utilizadas para indexação de grandes volumes de informações. A respeito dessas estruturas, responda os itens a seguir:
+
+1) Quais as diferenças entre uma árvore Multiway e uma árvore Binária?
+
+R: Uma árvore Multiway pode apresentar em cada nó um conjunto de chaves  e além disso, uma série desub-árvores.
+
+2) Para que serve a ordem da árvore?
+
+R: Representar o número máximo de filhos que um nó pode ter.
+
+3) Qual a relação entre a altura de uma árvore multiway e a ordem dela?
+
+R: Serão sempre a mesma.
+
+4) A partir da sequencia a seguir, represente graficamente a árvore gerada depois de cada operação de inserção. Considere que a árvore possui ordem 4 e é uma Árvore Multiway simples, sem balanceamento.
+
+a)  40  35  62  12  27  49  34  21  68  58  7  33  22 
+
+5) Refaça o item 4 agora considerando que a árvore possui ordem 5.
+
+6) Quais as principais diferenças entre uma árvore Multiway Simples e uma Árvore B (Balanceada)?
+
+R: A diferença entre uma árvore e a outra é que a Árvore B permanece balanceada após as operações.
+
+7) Refaça os itens 4 e 5 agora considerando que a árvore a ser construída é uma Árvore B
