@@ -1,0 +1,1 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/haskell-ghc9.2:v1-20230623-0b7a606","time":"2023-10-26T02:43:24Z"}

@@ -1,0 +1,20 @@
+
+P2 lê de x:
+
+Cache line x de P1: E -> S
+Cache line x de P2: I -> S
+
+P2 escreve em x:
+
+Cache line x de P1: S -> I
+Cache line x de P2: S -> M
+
+P1 escreve em x:
+
+Cache line x de P1: I -> M
+Cache line x de P2: M -> I
+
+P2 lê x:
+
+Cache line x de P1: M -> S
+Cache line x de P2: I -> S
