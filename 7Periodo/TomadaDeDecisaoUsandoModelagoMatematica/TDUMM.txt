@@ -1,0 +1,100 @@
+-------Contexto----------
+A performance de um time de futebol ao longo de uma temporada pode ser influenciada por várias variáveis, como a forma física dos jogadores, lesões, e adversários enfrentados. A simulação desse desempenho pode ajudar na tomada de decisões sobre treinamentos, estratégias de jogo, e gestão de elenco.
+
+Problema e Justificativa
+Qual é o problema e por que merece ser simulado?
+O problema é prever o desempenho de um time de futebol ao longo de uma temporada para melhorar estratégias de jogo e gestão do elenco. Este problema merece ser simulado devido à sua complexidade e impacto no sucesso do time. Referência: Reep, C., & Benjamin, B. (1968). "Skill and Chance in Association Football." Journal of the Royal Statistical Society.
+
+Que decisão pode ser feita com base nessa simulação?
+A decisão a ser tomada é a melhor estratégia de jogo e gestão do elenco para maximizar o desempenho do time ao longo da temporada.
+
+-----Desenvolvimento------
+Cenário Inicial
+Descrição do Modelo:
+
+Número de Jogos: A temporada consiste em 38 jogos.
+Probabilidade de Vitória, Empate e Derrota: Baseada na média histórica do time.
+Vitória: 40%
+Empate: 30%
+Derrota: 30%
+Pontos por Resultado:
+Vitória: 3 pontos
+Empate: 1 ponto
+Derrota: 0 pontos
+Parâmetros:
+
+Número de jogos: 38
+Probabilidade de vitória: 40%
+Probabilidade de empate: 30%
+Probabilidade de derrota: 30%
+Pontos por vitória: 3
+Pontos por empate: 1
+Pontos por derrota: 0
+Cenários Adicionais
+Cenário 2: Melhoria na Performance
+
+Probabilidade de vitória alterada para 50%.
+Probabilidade de empate alterada para 25%.
+Probabilidade de derrota alterada para 25%.
+Cenário 3: Desempenho Abaixo da Média
+
+Probabilidade de vitória alterada para 30%.
+Probabilidade de empate alterada para 35%.
+Probabilidade de derrota alterada para 35%.
+
+
+
+---------Resultados estatisticos-------
+
+        Cenário 1   Cenário 2   Cenário 3
+count  100.000000  100.000000  100.000000
+mean    57.760000   65.740000   48.720000
+std      7.848464    7.864535    7.666113
+min     38.000000   46.000000   29.000000
+25%     53.000000   60.000000   44.000000
+50%     59.000000   66.000000   48.000000
+75%     63.000000   70.250000   53.250000
+max     76.000000   86.000000   70.000000
+
+
+----------- Resumo das Observações da Simulação -------------
+Com base nos resultados e gráficos QQ gerados para os três cenários, aqui estão os detalhes observados e algumas opções estratégicas para o administrador:
+
+Observações Gerais:
+Distribuição Normal:
+
+Os gráficos QQ indicam que os pontos totais obtidos em cada cenário se aproximam de uma distribuição normal. As linhas de pontos se alinham bem com a linha teórica, sugerindo que as simulações seguem uma distribuição normal para a maioria dos pontos de dados.
+Desempenho Médio:
+
+Cenário 1: Média de 57.76 pontos.
+Cenário 2: Média de 65.74 pontos.
+Cenário 3: Média de 48.72 pontos.
+Variabilidade (Desvio Padrão):
+
+Cenário 1: Desvio padrão de 7.85 pontos.
+Cenário 2: Desvio padrão de 7.86 pontos.
+Cenário 3: Desvio padrão de 7.67 pontos.
+Faixa de Pontos:
+
+Cenário 1: Pontuação variou de 38 a 76 pontos.
+Cenário 2: Pontuação variou de 46 a 86 pontos.
+Cenário 3: Pontuação variou de 29 a 70 pontos.
+Opções Estratégicas para o Administrador:
+Treinamento Intensivo e Análise de Desempenho:
+
+Objetivo: Aumentar a probabilidade de vitória.
+Ações:
+Investir em treinamentos específicos para aprimorar habilidades técnicas e táticas dos jogadores.
+Implementar um sistema de análise de desempenho para identificar áreas de melhoria.
+Gestão de Elenco e Condicionamento Físico:
+
+Objetivo: Minimizar lesões e manter consistência.
+Ações:
+Introduzir uma rotação de elenco eficaz para garantir que os jogadores mantenham um bom condicionamento físico.
+Adotar programas de recuperação e fisioterapia para reduzir o risco de lesões.
+Análise de Adversários e Desenvolvimento de Táticas:
+
+Objetivo: Melhorar a preparação e a estratégia para jogos específicos.
+Ações:
+Utilizar análise de dados para estudar os pontos fortes e fracos dos adversários.
+Desenvolver táticas personalizadas para cada jogo com base nos dados analisados.

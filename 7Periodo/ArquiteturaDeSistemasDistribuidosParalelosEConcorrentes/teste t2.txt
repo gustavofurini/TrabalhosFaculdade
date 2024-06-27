@@ -1,0 +1,7 @@
+
+
+python percurso.py ZA ZB
+python percurso.py ZB ZA ZC ZD 
+python percurso.py ZC ZB ZD
+python percurso.py ZD ZB ZC ZE
+python percurso.py ZE ZD

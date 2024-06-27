@@ -1,0 +1,27 @@
+
+//Gustavo Furini e Leonardo Nervino
+
+exception LogError {};
+
+enum Severity {
+	DEBUG,
+	WARNING,
+	ERROR,
+	CRITICAL
+};
+
+interface Logger {
+attribute boolean verbose;
+
+void log(
+	in Severity severidade,
+	in string endereco,
+	in unsigned short pid,
+	in long hora,
+	in string msg
+) raises (LogError);
+
+
+oneway void shutdown();
+
+};

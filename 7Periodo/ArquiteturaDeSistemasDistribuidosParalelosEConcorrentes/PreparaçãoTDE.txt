@@ -1,0 +1,11 @@
+1. O que é e para que serve a plataforma?
+R: O etcd é uma plataforma de armazenamento de dados distribuída e consistente, frequentemente utilizada para a configuração e descoberta de serviços em sistemas distribuídos. Ele fornece um mecanismo confiável para armazenar e acessar dados chave-valor de forma distribuída, sendo amplamente utilizado em ambientes de computação em nuvem e orquestradores de contêineres.
+
+2. Quais são os principais recursos da plataforma?
+R: Armazenamentos de dados Chave-Valor, escalabilidade horizontal, interface simples e acessível  para interagir com dados armazenados, segurança e etc.
+
+3. Quais ferramentas e bibliotecas existem relativas a essa plataforma?
+R: Kubernetes, etcdctl, etcd Operator, Client Libraries, etcd browser e entre outros.
+
+4. Como posso interagir com a plataforma usando o comando etcdctl?
+R: Você pode interagir utlilzando os comandos básicos etcdctl get, etcdctl put, etcdctl del, etcdctl  watch e diversos outros comandos para interagir com o etcd.
